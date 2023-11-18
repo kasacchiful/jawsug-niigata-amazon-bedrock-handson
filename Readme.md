@@ -100,3 +100,19 @@ JAWS-UG新潟支部 ハンズオン教材
     dotenv.load_dotenv('./drive/MyDrive/amazon_bedrock_api_key.env')
     ```
 9. 以降、ノートブックを実行する
+
+## Clean up
+
+### SageMaker Studio
+
+必要な方は、以下のページを参考にリソース削除してください。
+
+[リソース削除](./doc/cleaning.md)
+
+### SageMaker Studio Lab
+
+必要な方は、ターミナルからAWSの認証情報が格納されているフォルダ ( `~/.aws/`) を削除してください。
+
+### Google Colaboratory
+
+必要な方は、Googleドライブに格納されたAWSのAPIキーのファイル ( `amazon_bedrock_api_key.env` ) を削除してください。
